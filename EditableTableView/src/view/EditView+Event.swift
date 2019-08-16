@@ -9,7 +9,9 @@ extension EditView {
       Swift.print("onDone()")
       guard let selectedRows = table.indexPathsForSelectedRows else { return }
       let rowDataIndecies: [Int] = selectedRows.map { $0.row } // Fixme: ⚠️️ maybe use set?
-      rowDataIndecies.reversed().forEach { table.rowData.remove(at: $0) }
+      Swift.print("rowDataIndecies:  \(rowDataIndecies)")
+      Swift.print("table.rowData.count:  \(table.rowData.count)")
+      rowDataIndecies.sorted().reversed().forEach { Swift.print("$0:  \($0)"); table.rowData.remove(at: $0) }
       table.beginUpdates()
       table.deleteRows(at: selectedRows, with: .automatic)
       table.endUpdates()

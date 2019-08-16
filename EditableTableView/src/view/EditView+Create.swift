@@ -18,7 +18,8 @@ extension EditView {
     * table
     */
    func createTable() -> EditTable {
-      let rowData: [String] = (0..<32).indices.map { "Item: \($0)" }
+//      let rowData: [String] = (0..<32).indices.map { "Item: \($0)" }
+      let rowData = EditTable.playlistData
       return with(.init(rowData: rowData, frame: .zero, style: .plain)) {
          addSubview($0)
          $0.backgroundView?.backgroundColor = .black

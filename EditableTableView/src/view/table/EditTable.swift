@@ -1,8 +1,8 @@
 import UIKit
 
 class EditTable: UITableView, UITableViewDelegate, UITableViewDataSource {
-   var rowData: [String]
-   init(rowData: [String], frame: CGRect, style: UITableView.Style) {
+   var rowData: [CellDataKind]
+   init(rowData: [CellDataKind], frame: CGRect, style: UITableView.Style) {
       self.rowData = rowData
       super.init(frame: frame, style: style)
       self.backgroundColor = .black
@@ -16,7 +16,8 @@ class EditTable: UITableView, UITableViewDelegate, UITableViewDataSource {
 //      self.backgroundView?.backgroundColor = .brown
       
       self.allowsMultipleSelectionDuringEditing = true // adds multiple selection support
-      self.setEditing(true, animated: false) // starts edit mode for table
+//      self.setEditing(true, animated: false) // starts edit mode for table
+      self.isEditing = true
    }
    /**
     * Boilerplate
