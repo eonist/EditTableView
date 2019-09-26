@@ -7,13 +7,11 @@ extension EditView {
     */
    func onDone() {
       Swift.print("onDone()")
-      guard let selectedRows = table.indexPathsForSelectedRows else { return }
-      let rowDataIndecies: [Int] = selectedRows.map { $0.row } // Fixme: ⚠️️ maybe use set?
-      Swift.print("rowDataIndecies:  \(rowDataIndecies)")
-      Swift.print("table.rowData.count:  \(table.rowData.count)")
-      rowDataIndecies.sorted().reversed().forEach { Swift.print("$0:  \($0)"); table.rowData.remove(at: $0) }
-      table.beginUpdates()
-      table.deleteRows(at: selectedRows, with: .automatic)
+      guard let selectedRows = table.indexPathsForSelectedRows else { return } // get selected rows
+      let rowDataIndecies: [Int] = selectedRows.map { $0.row } // this will always have unique integers, no need to use set
+      rowDataIndecies.sorted().reversed().forEach { Swift.print("$0:  \($0)"); table.rowData.remove(at: $0) } // alter the rowData
+      table.beginUpdates() // sort of like reloadTable, but for only the affected cells
+      table.deleteRows(at: selectedRows, with: .automatic) // delete the cell items in the table
       table.endUpdates()
    }
    /**
@@ -22,5 +20,7 @@ extension EditView {
    func onCancel() {
       Swift.print("onCancel()")
       //transition back to previouse view
+      Swift.print("table.rowData.count:  \(table.rowData.count)")
+      //pass the rowData into the master controller
    }
 }

@@ -1,5 +1,5 @@
 import CoreGraphics
 
-extension Header {
+extension EditViewHeader {
    static let height: CGFloat = 64
 }

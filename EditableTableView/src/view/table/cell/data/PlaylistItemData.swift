@@ -1,6 +1,6 @@
 import Foundation
 
-struct PlaylistCellData: PlaylistCellDataKind, Codable {
+struct EditablePlaylistCellData: PlaylistCellDataKind, Codable {
    let artistName: String
    let songTitle: String
 }

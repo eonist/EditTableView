@@ -1,7 +1,7 @@
 import UIKit
 
 class EditView: UIView {
-   lazy var header: Header = createHeader()
+   lazy var header: EditViewHeader = createHeader()
    lazy var table: EditTable = createTable()
    /**
     * Initiate

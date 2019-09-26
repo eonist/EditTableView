@@ -2,7 +2,7 @@ import UIKit
 /**
  * Event
  */
-extension Header {
+extension EditViewHeader {
    /**
     * When user taps on left button
     */

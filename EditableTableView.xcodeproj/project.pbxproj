@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D581D90230A95F500A9553D /* EditablePlaylistCell+Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D581D8F230A95F500A9553D /* EditablePlaylistCell+Setter.swift */; };
 		9D74AE4F2306BE1700848103 /* Spatial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D74AE4C2306BE1600848103 /* Spatial.framework */; };
 		9D74AE502306BE1700848103 /* Spatial.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D74AE4C2306BE1600848103 /* Spatial.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9D74AE512306BE1700848103 /* ReusableCell_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D74AE4D2306BE1600848103 /* ReusableCell_iOS.framework */; };
@@ -14,15 +15,13 @@
 		9D74AE532306BE1700848103 /* With.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D74AE4E2306BE1600848103 /* With.framework */; };
 		9D74AE542306BE1700848103 /* With.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D74AE4E2306BE1600848103 /* With.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9D74AE572306C38F00848103 /* EditTable+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74AE562306C38F00848103 /* EditTable+Cell.swift */; };
-		9D74AE5A2306C59800848103 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74AE592306C59800848103 /* TextCell.swift */; };
-		9D74AE5C2306CA5E00848103 /* Header+Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74AE5B2306CA5E00848103 /* Header+Const.swift */; };
+		9D74AE5C2306CA5E00848103 /* EditViewHeader+Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74AE5B2306CA5E00848103 /* EditViewHeader+Const.swift */; };
 		9D74AE5E2306E73500848103 /* EditTable+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74AE5D2306E73500848103 /* EditTable+Data.swift */; };
 		9D74AE692306E7A400848103 /* PlaylistCellDataKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74AE602306E7A400848103 /* PlaylistCellDataKind.swift */; };
 		9D74AE6A2306E7A400848103 /* PlaylistItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74AE612306E7A400848103 /* PlaylistItemData.swift */; };
-		9D74AE6B2306E7A400848103 /* PlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74AE632306E7A400848103 /* PlaylistCell.swift */; };
-		9D74AE6C2306E7A400848103 /* PlaylistCell+Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74AE642306E7A400848103 /* PlaylistCell+Const.swift */; };
-		9D74AE6D2306E7A400848103 /* PlaylistCell+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74AE652306E7A400848103 /* PlaylistCell+Create.swift */; };
-		9D74AE6E2306E7A400848103 /* PlaylistCell+Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74AE662306E7A400848103 /* PlaylistCell+Event.swift */; };
+		9D74AE6B2306E7A400848103 /* EditablePlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74AE632306E7A400848103 /* EditablePlaylistCell.swift */; };
+		9D74AE6C2306E7A400848103 /* EditablePlaylistCell+Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74AE642306E7A400848103 /* EditablePlaylistCell+Const.swift */; };
+		9D74AE6D2306E7A400848103 /* EditablePlaylistCell+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74AE652306E7A400848103 /* EditablePlaylistCell+Create.swift */; };
 		9D74AE6F2306E7A400848103 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74AE672306E7A400848103 /* BaseCell.swift */; };
 		9D74AE702306E7A400848103 /* CellDataKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74AE682306E7A400848103 /* CellDataKind.swift */; };
 		9D74AE722306E82200848103 /* EditTable+Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74AE712306E82200848103 /* EditTable+Move.swift */; };
@@ -34,9 +33,9 @@
 		9DF580A92306BC65005F336B /* EditView+Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF580A02306BC65005F336B /* EditView+Event.swift */; };
 		9DF580AA2306BC65005F336B /* EditTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF580A22306BC65005F336B /* EditTable.swift */; };
 		9DF580AB2306BC65005F336B /* EditView+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF580A32306BC65005F336B /* EditView+Create.swift */; };
-		9DF580AC2306BC65005F336B /* Header+Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF580A52306BC65005F336B /* Header+Event.swift */; };
-		9DF580AD2306BC65005F336B /* Header+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF580A62306BC65005F336B /* Header+Create.swift */; };
-		9DF580AE2306BC65005F336B /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF580A72306BC65005F336B /* Header.swift */; };
+		9DF580AC2306BC65005F336B /* EditViewHeader+Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF580A52306BC65005F336B /* EditViewHeader+Event.swift */; };
+		9DF580AD2306BC65005F336B /* EditViewHeader+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF580A62306BC65005F336B /* EditViewHeader+Create.swift */; };
+		9DF580AE2306BC65005F336B /* EditViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF580A72306BC65005F336B /* EditViewHeader.swift */; };
 		9DF580B02306BC8D005F336B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF580AF2306BC8D005F336B /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -67,19 +66,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9D581D8F230A95F500A9553D /* EditablePlaylistCell+Setter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditablePlaylistCell+Setter.swift"; sourceTree = "<group>"; };
 		9D74AE4C2306BE1600848103 /* Spatial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spatial.framework; path = Carthage/Build/iOS/Spatial.framework; sourceTree = "<group>"; };
 		9D74AE4D2306BE1600848103 /* ReusableCell_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReusableCell_iOS.framework; path = Carthage/Build/iOS/ReusableCell_iOS.framework; sourceTree = "<group>"; };
 		9D74AE4E2306BE1600848103 /* With.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = With.framework; path = Carthage/Build/iOS/With.framework; sourceTree = "<group>"; };
 		9D74AE562306C38F00848103 /* EditTable+Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditTable+Cell.swift"; sourceTree = "<group>"; };
-		9D74AE592306C59800848103 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
-		9D74AE5B2306CA5E00848103 /* Header+Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Header+Const.swift"; sourceTree = "<group>"; };
+		9D74AE5B2306CA5E00848103 /* EditViewHeader+Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditViewHeader+Const.swift"; sourceTree = "<group>"; };
 		9D74AE5D2306E73500848103 /* EditTable+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditTable+Data.swift"; sourceTree = "<group>"; };
 		9D74AE602306E7A400848103 /* PlaylistCellDataKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistCellDataKind.swift; sourceTree = "<group>"; };
 		9D74AE612306E7A400848103 /* PlaylistItemData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistItemData.swift; sourceTree = "<group>"; };
-		9D74AE632306E7A400848103 /* PlaylistCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistCell.swift; sourceTree = "<group>"; };
-		9D74AE642306E7A400848103 /* PlaylistCell+Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaylistCell+Const.swift"; sourceTree = "<group>"; };
-		9D74AE652306E7A400848103 /* PlaylistCell+Create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaylistCell+Create.swift"; sourceTree = "<group>"; };
-		9D74AE662306E7A400848103 /* PlaylistCell+Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaylistCell+Event.swift"; sourceTree = "<group>"; };
+		9D74AE632306E7A400848103 /* EditablePlaylistCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditablePlaylistCell.swift; sourceTree = "<group>"; };
+		9D74AE642306E7A400848103 /* EditablePlaylistCell+Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditablePlaylistCell+Const.swift"; sourceTree = "<group>"; };
+		9D74AE652306E7A400848103 /* EditablePlaylistCell+Create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditablePlaylistCell+Create.swift"; sourceTree = "<group>"; };
 		9D74AE672306E7A400848103 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		9D74AE682306E7A400848103 /* CellDataKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDataKind.swift; sourceTree = "<group>"; };
 		9D74AE712306E82200848103 /* EditTable+Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditTable+Move.swift"; sourceTree = "<group>"; };
@@ -95,9 +93,9 @@
 		9DF580A02306BC65005F336B /* EditView+Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditView+Event.swift"; sourceTree = "<group>"; };
 		9DF580A22306BC65005F336B /* EditTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTable.swift; sourceTree = "<group>"; };
 		9DF580A32306BC65005F336B /* EditView+Create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditView+Create.swift"; sourceTree = "<group>"; };
-		9DF580A52306BC65005F336B /* Header+Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Header+Event.swift"; sourceTree = "<group>"; };
-		9DF580A62306BC65005F336B /* Header+Create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Header+Create.swift"; sourceTree = "<group>"; };
-		9DF580A72306BC65005F336B /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		9DF580A52306BC65005F336B /* EditViewHeader+Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditViewHeader+Event.swift"; sourceTree = "<group>"; };
+		9DF580A62306BC65005F336B /* EditViewHeader+Create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditViewHeader+Create.swift"; sourceTree = "<group>"; };
+		9DF580A72306BC65005F336B /* EditViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewHeader.swift; sourceTree = "<group>"; };
 		9DF580AF2306BC8D005F336B /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,7 +127,6 @@
 				9D74AE682306E7A400848103 /* CellDataKind.swift */,
 				9D74AE5F2306E7A400848103 /* data */,
 				9D74AE622306E7A400848103 /* playlist */,
-				9D74AE592306C59800848103 /* TextCell.swift */,
 			);
 			path = cell;
 			sourceTree = "<group>";
@@ -146,10 +143,10 @@
 		9D74AE622306E7A400848103 /* playlist */ = {
 			isa = PBXGroup;
 			children = (
-				9D74AE632306E7A400848103 /* PlaylistCell.swift */,
-				9D74AE642306E7A400848103 /* PlaylistCell+Const.swift */,
-				9D74AE652306E7A400848103 /* PlaylistCell+Create.swift */,
-				9D74AE662306E7A400848103 /* PlaylistCell+Event.swift */,
+				9D74AE632306E7A400848103 /* EditablePlaylistCell.swift */,
+				9D581D8F230A95F500A9553D /* EditablePlaylistCell+Setter.swift */,
+				9D74AE642306E7A400848103 /* EditablePlaylistCell+Const.swift */,
+				9D74AE652306E7A400848103 /* EditablePlaylistCell+Create.swift */,
 			);
 			path = playlist;
 			sourceTree = "<group>";
@@ -232,10 +229,10 @@
 		9DF580A42306BC65005F336B /* header */ = {
 			isa = PBXGroup;
 			children = (
-				9DF580A52306BC65005F336B /* Header+Event.swift */,
-				9DF580A62306BC65005F336B /* Header+Create.swift */,
-				9DF580A72306BC65005F336B /* Header.swift */,
-				9D74AE5B2306CA5E00848103 /* Header+Const.swift */,
+				9DF580A52306BC65005F336B /* EditViewHeader+Event.swift */,
+				9DF580A62306BC65005F336B /* EditViewHeader+Create.swift */,
+				9DF580A72306BC65005F336B /* EditViewHeader.swift */,
+				9D74AE5B2306CA5E00848103 /* EditViewHeader+Const.swift */,
 			);
 			path = header;
 			sourceTree = "<group>";
@@ -251,6 +248,7 @@
 				9DF580772306B965005F336B /* Frameworks */,
 				9DF580782306B965005F336B /* Resources */,
 				9D74AE552306BE1700848103 /* Embed Frameworks */,
+				9D581D8E230A90CB00A9553D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -336,6 +334,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9D581D8E230A90CB00A9553D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9DF580762306B965005F336B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -344,25 +362,24 @@
 				9DF580AB2306BC65005F336B /* EditView+Create.swift in Sources */,
 				9D74AE722306E82200848103 /* EditTable+Move.swift in Sources */,
 				9DF580B02306BC8D005F336B /* MainVC.swift in Sources */,
-				9DF580AE2306BC65005F336B /* Header.swift in Sources */,
+				9DF580AE2306BC65005F336B /* EditViewHeader.swift in Sources */,
 				9D74AE5E2306E73500848103 /* EditTable+Data.swift in Sources */,
 				9D74AE702306E7A400848103 /* CellDataKind.swift in Sources */,
-				9DF580AC2306BC65005F336B /* Header+Event.swift in Sources */,
-				9D74AE5C2306CA5E00848103 /* Header+Const.swift in Sources */,
+				9DF580AC2306BC65005F336B /* EditViewHeader+Event.swift in Sources */,
+				9D74AE5C2306CA5E00848103 /* EditViewHeader+Const.swift in Sources */,
 				9D74AE572306C38F00848103 /* EditTable+Cell.swift in Sources */,
-				9D74AE6D2306E7A400848103 /* PlaylistCell+Create.swift in Sources */,
+				9D74AE6D2306E7A400848103 /* EditablePlaylistCell+Create.swift in Sources */,
 				9D74AE6F2306E7A400848103 /* BaseCell.swift in Sources */,
 				9DF580AA2306BC65005F336B /* EditTable.swift in Sources */,
+				9D581D90230A95F500A9553D /* EditablePlaylistCell+Setter.swift in Sources */,
 				9DF5807E2306B965005F336B /* AppDelegate.swift in Sources */,
 				9DF580A82306BC65005F336B /* EditView.swift in Sources */,
-				9DF580AD2306BC65005F336B /* Header+Create.swift in Sources */,
+				9DF580AD2306BC65005F336B /* EditViewHeader+Create.swift in Sources */,
 				9DF580A92306BC65005F336B /* EditView+Event.swift in Sources */,
 				9D74AE6A2306E7A400848103 /* PlaylistItemData.swift in Sources */,
-				9D74AE5A2306C59800848103 /* TextCell.swift in Sources */,
-				9D74AE6E2306E7A400848103 /* PlaylistCell+Event.swift in Sources */,
 				9D74AE692306E7A400848103 /* PlaylistCellDataKind.swift in Sources */,
-				9D74AE6B2306E7A400848103 /* PlaylistCell.swift in Sources */,
-				9D74AE6C2306E7A400848103 /* PlaylistCell+Const.swift in Sources */,
+				9D74AE6B2306E7A400848103 /* EditablePlaylistCell.swift in Sources */,
+				9D74AE6C2306E7A400848103 /* EditablePlaylistCell+Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

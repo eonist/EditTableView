@@ -1,10 +1,9 @@
 import UIKit
 
-class Header: UIView {
-  lazy var leftButton: UIButton = createLeftButton()
-  lazy var centerTitle: UILabel = createCenterTitle()
-  lazy var rightButton: UIButton = createRightButton()
-  
+class EditViewHeader: UIView {
+   lazy var leftButton: UIButton = createLeftButton()
+   lazy var centerTitle: UILabel = createCenterTitle()
+   lazy var rightButton: UIButton = createRightButton()
    override init(frame: CGRect) {
       super.init(frame: frame)
       backgroundColor = .black

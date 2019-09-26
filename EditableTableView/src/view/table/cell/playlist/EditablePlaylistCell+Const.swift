@@ -1,5 +1,5 @@
 import CoreGraphics
 
-extension PlaylistCell {
+extension EditablePlaylistCell {
    static let height: CGFloat = 48
 }
